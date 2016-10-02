@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.container{
+    padding: 15px;
+}
+
+
+/*+++++++++++++++++++++++++++
+NAVBAR
++++++++++++++++++++++++++++*/
+
+nav{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.navButton {
+  font-size: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.logoDiv {
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+@media (max-width: 1240px){
+  .navButton{
+    font-size: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mainPageHeading{
+    font-size: 27px;
+  }
+
+}
+/*+++++++++++++++++++++++++++
+FOOTER
++++++++++++++++++++++++++++*/
+.footerDiv {
+  margin-top: 40px;
+}
+
+.footerLinks {
+  color: #80deea;
+}
+
+.footerLinks:hover {
+  color: #ff3d00;
+}
+
+.copywrightText {
+  color: #757575;
+}
+
+/*+++++++++++++++++++++++++++
+MAIN PAGE
++++++++++++++++++++++++++++*/
+
+.headshot{
+  max-height: 300px;
+  max-width: 100%;
+}
+
+.headshotContainer{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.mainPageHeaderDiv{
+  border-radius: 2px;
+}
+
+.mainPageHeading{
+  font-weight: bold;
+}
+
+.headhotDiv{
+  margin-bottom: 100px;
+}
+
+.tagLine{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mainPageTagline{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.logo{
+  width: 125px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.companyInfo{
+  border-radius: 2px;
+  padding: 10px;
+}
+
+/*+++++++++++++++++++++++++++
+ABOUT PAGE
++++++++++++++++++++++++++++*/
+
+.bioPic{
+  width: 150px;
+  padding-right: 15px;
+  margin-top: 10px;
+}
+
+/*+++++++++++++++++++++++++++
+TESTIMONIAL PAGE
++++++++++++++++++++++++++++*/
+.testimonialContent{
+  margin-top: 100px;
+}
+
+.pictureHolder{
+  overflow: auto;
+}
+
+.groupPhoto{
+  width: 50%;
+  border: 2px solid #616161;
+}
+
+.testimonialText{
+  width: 50%;
+  padding-left: 10px;
+  margin-top: 0px;
+}
